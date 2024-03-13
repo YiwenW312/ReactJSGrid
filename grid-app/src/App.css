@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 1px; 
+  justify-content: center;
+  align-items: center;
+  background-color: grey; 
+  padding: 2px; 
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid grey;
+}
